@@ -2,20 +2,6 @@ body{
 	margin:0;
 	font-family: 'Poppins', sans-serif;
 }
-@media all and (max-width:500px){
-	.Hero{
-		
-		display:flex;
-		
-	}
-	.Hero--image{
-		display: flex;
-		width: 270px;
-		
-	}
-	
-	
-}
 
 .Navbar{
 	display:flex;
@@ -124,4 +110,37 @@ text-align: left;
 
 .price {
     margin-top: auto;
+}
+ @media all and (max-width:500px){
+           .Hero{
+  
+  	              display:flex;
+  
+ 	    }
+ 	    .Hero--image{
+ 	            display: flex;
+ 	            width: 270px;
+ 
+ 	    }
+ 	
+ 	    .experiences{
+ 	            margin-left:20px;
+ 	            
+ 	     }
+ 	     .experiences--header{
+                   font-size:36px;
+                   
+ 	    }
+ 	    .experiences--text{
+ 	            
+ 	            max-width:280px;
+		    font-size:16px;
+ 	 }
+	 .card{
+	 	margin:30px 0px 0px 20px;
+
+	 }
+	 .card--lists{
+	 	gap:10px;
+	 }
 }
