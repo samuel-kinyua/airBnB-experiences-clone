@@ -47,6 +47,7 @@ body{
         flex: 0 0 auto;         
         display: flex;         
     	flex-direction: column;
+	position:relative;
 }
 .cards-list {
     display: flex;
@@ -60,6 +61,20 @@ body{
 	border-radius: 9px;
     margin-bottom: 9px;
 	height: 60%;
+	
+}
+
+.card--badge{
+	position:absolute;
+	font-size:12px;
+	font-weight: bold;
+	background-color:white;
+	border-radius:2px;
+	padding:4px 7px 4px 7px;
+	margin:8px 0px 0px 10px;*/
+
+
+
 }
 .Card--text{
 	width: 176px;
