@@ -158,4 +158,9 @@ text-align: left;
 	 .card--lists{
 	 	gap:10px;
 	 }
-}
+
+	 .nav--logo{
+	 height: 1em;
+	 margin-left:15px;
+	 }
+ }
