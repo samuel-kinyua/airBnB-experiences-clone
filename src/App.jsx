@@ -20,7 +20,9 @@ export default function App(){
 			<Experiences />
 			<section className="cards-list">
                			 {cards}
+						{cards}
             		</section> 
+					
 		</div>
 
 	)
